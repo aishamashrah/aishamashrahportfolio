@@ -8,13 +8,19 @@ import GitHub from '../assets/unnamed.png';
 import { Link } from 'react-router-dom';
 
 export default function About() {
+  const backgroundStyle = {
+    backgroundImage: `url(${myImage2})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center center',
+    height: '100vh',
+  };
   return (
     
     <div>
-    <nav class=" bg-white ">
+    <nav className="border border-black bg-black text-white">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="#" class="flex items-center">
-                <span class=" font-serif text-2xl p-2 text-black">Welcome to My Portfolio</span>
+                <span class=" font-serif text-2xl p-2 ">Welcome to My Portfolio</span>
             </a>
             <button data-collapse-toggle="navbar-solid-bg" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"> 
                 
@@ -22,19 +28,19 @@ export default function About() {
     <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
       <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
         <li>
-          <a href="#" class="text-black font-serif text-1xl  block">Projects</a>
+          <a href="#" class=" font-serif text-1xl  block">// Projects</a>
         </li>
         <li>
-          <a href="#" class="text-black font-serif text-1xl  block">Contact</a>
+          <a href="#" class="font-serif text-1xl  block">// Contact</a>
         </li>
         <li>
-          <a href="#" class="text-black font-serif text-1xl  block  ">Resume</a>
+          <a href="#" class=" font-serif text-1xl  block  ">// Resume</a>
         </li>
         <li>
-          <a href="#" class="text-black font-serif text-1xl  block  ">Linkedin</a>
+          <a href="#" class=" font-serif text-1xl  block  ">// Linkedin</a>
         </li>
         <li>
-          <a href="#" class="text-black font-serif text-1xl  block  ">GitHub</a>
+          <a href="#" class=" font-serif text-1xl  block  ">// GitHub</a>
         </li>
       </ul>
     </div>
@@ -47,6 +53,7 @@ export default function About() {
       {/* <h1 className='absolute lg:mb-9   sm-mb-44 top-44 mt-32 left-2/4 transform -translate-x-2/4 -translate-y-2/4 text-4xl font-extrabold text-black text-center'>
         <span>SOFTWARE ENGINEER</span>
       </h1> */}
+      <div style={backgroundStyle}>
 <h2 className=' border-black border-4'></h2>
       <div className=" w-full h-full flex justify-center items-center n text-white">
       <div className="p-10">
@@ -81,6 +88,7 @@ export default function About() {
         </div>
       </div>
       
+      </div>
       </div>
       </div>
       </div>
