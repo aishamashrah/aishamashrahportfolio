@@ -28,19 +28,19 @@ export default function About() {
     <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
       <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
         <li>
-          <a href="#" class=" font-serif text-1xl  block">// Projects</a>
+          <a href="#" class=" font-serif text-1xl  block">Projects</a>
         </li>
         <li>
-          <a href="#" class="font-serif text-1xl  block">// Contact</a>
+          <a href="#" class="font-serif text-1xl  block">Contact</a>
         </li>
         <li>
-          <a href="#" class=" font-serif text-1xl  block  ">// Resume</a>
+          <a href="#" class=" font-serif text-1xl  block  ">Resume</a>
         </li>
         <li>
-          <a href="#" class=" font-serif text-1xl  block  ">// Linkedin</a>
+          <a href="#" class=" font-serif text-1xl  block  ">Linkedin</a>
         </li>
         <li>
-          <a href="#" class=" font-serif text-1xl  block  ">// GitHub</a>
+          <a href="#" class=" font-serif text-1xl  block  ">GitHub</a>
         </li>
       </ul>
     </div>

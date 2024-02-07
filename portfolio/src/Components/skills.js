@@ -133,7 +133,7 @@ const Skill = () => {
 
 
 return (
-  <div className="app-container " style={{ backgroundColor: 'white', color: 'black', padding: '20px' }}>
+  <div className="app-container " style={{ backgroundColor: 'black', color: 'white', padding: '20px' }}>
       <h1 className=" text-5xl  pb-3 font-serif text-1xl  text-center">skills</h1>
 
 <div className="grid grid-cols-1 pb-10 ">
