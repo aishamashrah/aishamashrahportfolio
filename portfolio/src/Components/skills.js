@@ -52,7 +52,7 @@ const Skill = () => {
   },
   {
     id: 8,
-    name: "Martin ",
+    name: "Mamnrtin ",
     title: "CEO of ALBI",
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
     icon: "assets/linkedin.png",
